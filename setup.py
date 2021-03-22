@@ -5,8 +5,8 @@ from setuptools import setup, find_packages
 PYTHON_VERSION = version_info[0]
 
 python2_specific_requirements = [
-    'supervisor==3.3.4',
-    'enum34==1.1.6',
+    'supervisor>=4.2,<4.3',
+    'enum34==1.1.10',
     'poster==0.8.1',
 ]
 
